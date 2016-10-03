@@ -1,0 +1,11 @@
+{
+  "name": "gitbook-plugin-executor-editor",
+  "version": "0.0.1",
+  "description": "Using executor-editor in Gitbook",
+  "engines": {
+    "gitbook": "3.2.2"
+  },
+  "dependencies": {
+    "executor-editor": "1.0.1"
+  }
+}
