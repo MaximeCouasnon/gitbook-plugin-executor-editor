@@ -1,15 +1,18 @@
 module.exports = {
-    book: {
-        js: [
-            "node_modules/executor-editor/dist/executor-editor.min.js",
+	website: {
+		assets: "./assets",
+		js: [
+			"executor-editor.min.js",
 			"launcher.js"
-        ]
-    },
-	blocks: {
+		]
+	},
+    blocks: {
         execEd: {
             parse: false,
             process: function ( block ) {
-				return "<div class='executor-editor'>" + block.body + "</div>";
+				return "<div class='executor-editor' data-width='770'>" +
+					block.body +
+					"</div>";
             }
         }
 	}
